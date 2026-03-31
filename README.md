@@ -17,7 +17,6 @@ prism-ads/
 │  ├─ config_final.json
 │  └─ benchmark_manifest.json
 ├─ data/
-│  ├─ benchmark_grid.csv
 │  ├─ all_generated.csv
 │  ├─ scored_all.csv
 │  ├─ scored_plus_judge.csv
