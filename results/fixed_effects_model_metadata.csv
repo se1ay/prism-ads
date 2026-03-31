@@ -1,0 +1,4 @@
+outcome,formula,cov_type_used,n_obs,n_template_clusters,r_squared,adj_r_squared,aic,bic
+PPI_100w,PPI_100w ~ C(regime_key) + C(model_key) + C(category_key) + C(regime_key):C(model_key),cluster_template_key,1152,72,0.32401979696852456,0.3168979686661737,321.772164665957,387.4124776022829
+CRI_100w,CRI_100w ~ C(regime_key) + C(model_key) + C(category_key) + C(regime_key):C(model_key),cluster_template_key,1152,72,0.022235609406878853,0.011934316441894355,-1661.6880936312286,-1596.0477806949027
+TSI_100w,TSI_100w ~ C(regime_key) + C(model_key) + C(category_key) + C(regime_key):C(model_key),cluster_template_key,1152,72,0.010425716768028837,1.1102230246251565e-15,-5425.276774991458,-5359.636462055132

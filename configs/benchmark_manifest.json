@@ -1,0 +1,79 @@
+{
+  "benchmark_design": {
+    "rows": 1152,
+    "models": [
+      "Qwen/Qwen2.5-7B-Instruct",
+      "mistralai/Mistral-7B-Instruct-v0.3"
+    ],
+    "n_models": 2,
+    "categories": [
+      "antivirus_subscription",
+      "budgeting_app",
+      "cloud_backup_service",
+      "exam_prep_app",
+      "password_manager",
+      "website_builder"
+    ],
+    "n_categories": 6,
+    "regimes": [
+      "brand_policy_aligned",
+      "growth_optimized",
+      "informational",
+      "trust_reassurance"
+    ],
+    "n_regimes": 4,
+    "templates_per_regime_category": 3,
+    "replicates_per_template": 8,
+    "rows_per_model": {
+      "Qwen/Qwen2.5-7B-Instruct": 576,
+      "mistralai/Mistral-7B-Instruct-v0.3": 576
+    },
+    "rows_per_regime": {
+      "brand_policy_aligned": 288,
+      "growth_optimized": 288,
+      "informational": 288,
+      "trust_reassurance": 288
+    },
+    "rows_per_category": {
+      "antivirus_subscription": 192,
+      "budgeting_app": 192,
+      "cloud_backup_service": 192,
+      "exam_prep_app": 192,
+      "password_manager": 192,
+      "website_builder": 192
+    },
+    "rows_per_template_index": {
+      "1": 384,
+      "2": 384,
+      "3": 384
+    }
+  },
+  "judge_subset": {
+    "rows_with_outputs": 96
+  },
+  "external_validation_design": {
+    "rows": 100,
+    "groups": {
+      "problematic": 50,
+      "reference": 50
+    },
+    "selection_rules": [
+      {
+        "selection_rule_id": "RULE_001",
+        "group_target": "problematic"
+      },
+      {
+        "selection_rule_id": "RULE_002",
+        "group_target": "reference"
+      }
+    ]
+  },
+  "lexicon": {
+    "included_rows": 72
+  },
+  "integrity_notes": [
+    "This manifest describes the frozen final anonymous review artifact only.",
+    "Counts are derived from the final uploaded CSV files included in the repository.",
+    "Historical planning variants and abandoned trial configurations were intentionally omitted."
+  ]
+}

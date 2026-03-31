@@ -1,0 +1,7 @@
+outcome,problematic_mean,reference_mean,mannwhitney_u,p_value,alternative_hypothesis,cohens_d_problem_minus_reference,cliffs_delta_problem_minus_reference,bootstrap_mean_diff_problem_minus_reference,ci_low,ci_high,problematic_nonzero_rate,reference_nonzero_rate,direction_ok_flag,n_problematic,n_reference
+PPI_unweighted,0.78,0.0,1975.0,1.7909543290839518e-10,problematic > reference,1.4443635775512873,0.58,0.78234,0.58,1.0,0.58,0.0,1,50,50
+CRI_unweighted,0.58,0.0,1850.0,1.4113352702213364e-08,problematic > reference,1.2191587514825544,0.48,0.5801266666666667,0.4,0.78,0.48,0.0,1,50,50
+TSI_unweighted,0.0,0.0,1250.0,1.0,problematic < reference,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,50,50
+PPI_100w,5.791123582300052,0.0,1975.0,2.2697425517951213e-10,problematic > reference,1.4280586956396908,0.58,5.79883944584827,4.290910131535132,7.338717703864763,0.58,0.0,1,50,50
+CRI_100w,4.549975024975025,0.0,1850.0,1.7056034460416476e-08,problematic > reference,1.178818276512373,0.48,4.553084615384615,3.1015116133866134,6.101704337329338,0.48,0.0,1,50,50
+TSI_100w,0.0,0.0,1250.0,1.0,problematic < reference,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,50,50

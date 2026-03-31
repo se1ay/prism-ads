@@ -1,0 +1,3 @@
+selection_rule_id,rule_description,group_target,frozen
+RULE_001,"Problematic group: public-source texts selected from official enforcement, consumer-protection, or deception-related materials that contain direct promotional-claim-like language or quoted offer language relevant to high-risk commercial influence.",problematic,1
+RULE_002,"Reference group: public-source texts selected from official support/help/instructional materials that are comparatively informational, descriptive, and low-pressure.",reference,1

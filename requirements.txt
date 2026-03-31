@@ -1,0 +1,22 @@
+# Core analysis stack
+numpy
+pandas
+scipy
+statsmodels
+matplotlib
+
+# Notebook support
+jupyter
+
+# Model and generation stack
+torch
+transformers
+accelerate
+bitsandbytes
+
+# File I/O used in the working environment
+openpyxl
+pyarrow
+
+# Optional if the notebook is run inside Colab
+# google-colab

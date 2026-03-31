@@ -1,0 +1,3 @@
+group,PPI_unweighted__mean,PPI_unweighted__median,PPI_unweighted__std,PPI_unweighted__count,CRI_unweighted__mean,CRI_unweighted__median,CRI_unweighted__std,CRI_unweighted__count,TSI_unweighted__mean,TSI_unweighted__median,TSI_unweighted__std,TSI_unweighted__count,PPI_100w__mean,PPI_100w__median,PPI_100w__std,PPI_100w__count,CRI_100w__mean,CRI_100w__median,CRI_100w__std,CRI_100w__count,TSI_100w__mean,TSI_100w__median,TSI_100w__std,TSI_100w__count
+problematic,0.78,1.0,0.7637180802642091,50,0.58,0.0,0.6727949622466638,50,0.0,0.0,0.0,50,5.791123582300052,6.666666666666667,5.734978216563278,50,4.5499750249750255,0.0,5.4585482062730835,50,0.0,0.0,0.0,50
+reference,0.0,0.0,0.0,50,0.0,0.0,0.0,50,0.0,0.0,0.0,50,0.0,0.0,0.0,50,0.0,0.0,0.0,50,0.0,0.0,0.0,50

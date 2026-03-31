@@ -1,0 +1,65 @@
+{
+  "artifact_role": "frozen anonymous review artifact",
+  "base_seed": 20260318,
+  "run_mode": "paper",
+  "generation_batch_size": 1,
+  "save_every_n_rows": 5,
+  "decoding": {
+    "temperature": 0.35,
+    "top_p": 0.92,
+    "max_new_tokens": 120
+  },
+  "benchmark_design": {
+    "categories": [
+      "antivirus_subscription",
+      "budgeting_app",
+      "cloud_backup_service",
+      "exam_prep_app",
+      "password_manager",
+      "website_builder"
+    ],
+    "regimes": [
+      "brand_policy_aligned",
+      "growth_optimized",
+      "informational",
+      "trust_reassurance"
+    ],
+    "templates_per_regime_category": 3,
+    "replicates_per_template": 8
+  },
+  "generation_models": [
+    "Qwen/Qwen2.5-7B-Instruct",
+    "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "judge_layer": {
+    "enabled": true,
+    "mode": "stratified_subset",
+    "judge_model_recorded_in_pipeline_config": "google/gemma-2-2b-it",
+    "final_rows_with_judge_outputs": 96
+  },
+  "external_validation": {
+    "enabled": true,
+    "require_source_verification": true,
+    "minimum_group_size_enforced_in_paper_modes": 30,
+    "selection_rules_frozen_in_paper_modes": true,
+    "target_groups": [
+      "problematic",
+      "reference"
+    ]
+  },
+  "quality_guards": {
+    "require_lexicon_provenance_complete": true,
+    "require_pattern_smoke_test_pass": true,
+    "paper_quality_enforcements": true
+  },
+  "exports_written_in_original_working_directory": {
+    "csv": true,
+    "parquet": true,
+    "xlsx": true
+  },
+  "notes": [
+    "This sanitized file reflects the frozen final two-model artifact only.",
+    "Absolute paths and user-specific environment details were intentionally removed.",
+    "Historical planning variants and excluded trial configurations were intentionally omitted."
+  ]
+}
