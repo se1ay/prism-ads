@@ -1,4 +1,4 @@
-# PRISM-Ads anonymous artifact
+# PRISM-Ads artifact
 
 This repository contains an anonymous research artifact for a study on rule-based auditing of persuasive-risk signals in LLM-generated advertising copy.
 
